@@ -1,0 +1,156 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #141414;
+  margin: 0rem;
+  overflow: hidden;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  user-select: none;
+}
+
+#image-track > .image {
+  width: 45vmin;
+  height: 53vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+body.menu-toggled > .meta-link > span {
+  color: rgb(30, 30, 30);
+}
+
+#source-link {
+  bottom: 10px;
+  left: 110px;
+}
+#github-link {
+  bottom: 10px;
+}
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+#github-link > i {
+  color: rgb(94, 106, 210);
+}
+#linkedin-link {
+  bottom: 10px;
+  left: 235px;
+}
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  bottom: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: inline-flex;
+  gap: 5px;
+  left: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 400ms, border-color 400ms;
+  z-index: 10000;
+}
+
+.meta-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.meta-link > i,
+.meta-link > span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.meta-link > span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.topnav {
+  z-index: 9995;
+  top: 37px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topnav a {
+  float: left;
+  color: #393d47;
+  text-align: center;
+  padding: 23px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  transform: translate(0%, 50%);
+  font-family: "Times New Roman", serif;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+.about {
+  background-color: #141414;
+  text-align: left;
+  margin-left: 10%;
+  justify-content: left;
+
+  font-family: "Inter", sans-serif;
+}
+
+.smallIntro {
+  padding: 0px;
+  margin-top: 117px;
+  margin-bottom: 0px;
+  justify-content: left;
+  font-size: 17px;
+  opacity: 67%;
+  color: #ffffff;
+}
+.name {
+  padding: 0px;
+  margin-top: 0px;
+  border-top: 0px;
+  margin-bottom: 0px;
+  opacity: 77%;
+  color: #ffffff;
+  font-size: 50px;
+}
+.paragraph {
+  padding: 0px;
+  margin-top: 23px;
+  border-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-size: 14.5px;
+  /* Google recommends lowering opacity on white text with a black background*/
+  opacity: 60%;
+  color: #ffffff;
+  width: 725px;
+}
+.heading2 {
+  padding: 0px;
+  margin-top: 0px;
+  border-top: 0px;
+  margin-bottom: 0px;
+  opacity: 70%;
+  color: #ffffff;
+  font-size: 50px;
+}
+.hyper-link {
+  color: #ffffff;
+}
