@@ -27,22 +27,16 @@ body.menu-toggled > .meta-link > span {
   color: rgb(30, 30, 30);
 }
 
-#source-link {
-  bottom: 10px;
-  left: 110px;
-}
 #github-link {
   bottom: 10px;
 }
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
+
 #github-link > i {
   color: rgb(94, 106, 210);
 }
 #linkedin-link {
   bottom: 10px;
-  left: 235px;
+  left: 110px;
 }
 .meta-link {
   align-items: center;
